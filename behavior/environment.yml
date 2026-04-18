@@ -1,0 +1,13 @@
+name: py3.9
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - psychopy=2022.2.5
+  - keyboard
+  - numpy=1.23
+  - pandas
+  - openpyxl
+  - ipython
+  - pip:
+    - pyglet==1.5.27
