@@ -1,7 +1,7 @@
 # Visual Statistical Learning (VSL) Task
 These scripts are used to run the VSL task performed by participants during fMRI scans. The experiment investigates how the human brain incidentally learns temporal regularities between abstract visual stimuli.
 
-### Task Overview
+## Task Overview
 - **Stimuli**: Twelve solid black abstract geometric shapes.
 - **Structure**: These shapes are organized into four "triplets" (sequences of three shapes). While the triplets appear in a pseudo-randomized stream, the internal order of shapes within a triplet remains fixed ($TP = 1$).
 - **Cover Task (Jiggle Detection)**: To ensure attention without explicitly informing participants of the patterns, they perform a "jiggle detection" task.
@@ -9,7 +9,7 @@ These scripts are used to run the VSL task performed by participants during fMRI
     - **Response**: Participants must press the "1" key as quickly as possible upon detecting a jiggle.
     - **Feedback**: The fixation dot changes color based on performance: Green for success, and Red for missed targets or incorrect presses.
 
-### Experimental Design
+## Experimental Design
 The fMRI session consists of 10 runs:
 1. **Pre-exposure Run**: Establishes a baseline representation of individual shapes.
 2. **8 Exposure Runs**: The primary learning phase where triplets are presented repeatedly.
@@ -30,7 +30,7 @@ The fMRI session consists of 10 runs:
     2. Execute `run VSL_test.py`, and then enter the 3-digit Subject ID and folder prefix (`PW` or `Slow`) when prompted.
 5. **Post-Experiment Interview**: Conduct a brief interview regarding the participant's awareness of the triplets and their strategies. 
 
-### Directory structure
+## Directory structure
 ```
 behavior/
 ├── VSL_exp_run.py            # Main rapid event-related experiment (one run per call)
