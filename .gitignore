@@ -1,0 +1,16 @@
+
+/behavior/*/
+!/behavior/stimuli/
+!/behavior/stimuli/**
+
+/fmri_prepost/Nifti/*
+!/fmri_prepost/Nifti/code/
+!/fmri_prepost/Nifti/code/**
+
+/fmri_exposure/Nifti/*
+!/fmri_exposure/Nifti/code/
+!/fmri_exposure/Nifti/code/**
+
+**/Dicom/
+**/work/
+**/_*
