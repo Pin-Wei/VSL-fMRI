@@ -18,7 +18,9 @@ The fMRI session consists of 10 runs:
 
 ## Procedure & Execution Guide
 ### Prerequest
-- Prepare a Python environment with all necessary packages installed (you may create it using `mamba env create -f environment.yml`)
+- Prepare laptop A for behavioral training (Practice) and the final test (Post-test).
+- Prepare laptop B connected to the MRI display and trigger system for formal fMRI task.
+- For both laptops, prepare a Python environment with all necessary packages installed (you may create it using `mamba env create -f environment.yml`)
 ### Practice Phase (Laptop A)
 Before entering the scanner, participants complete a practice session to familiarize themselves with the jiggle detection task using a separate set of stimuli.
 1. Open terminal, activate the environment (e.g., `conda activate py3.9`), navigate to the directory where the script is located, and enter `ipython`.
@@ -27,7 +29,7 @@ Before entering the scanner, participants complete a practice session to familia
 After the initial 20-minute anatomical scan, proceed with the functional runs.
 1. Open terminal, activate the environment, navigate to the directory where the script is located, and enter `ipython`.
 2. Execute `run VSL_exp_run_slow.py <Subject_ID> <Run_Number>`.
-- *Note: Allow the participant to rest between runs. They will verbally confirm when they are ready to proceed via the intercom.*
+- *Note: Allow the participant to rest between runs. Verbally confirm when they are ready to proceed via the intercom.*
 ### Behavioral Post-test (Laptop A)
 Once the MRI session is complete, transfer the log files (the xxx_triplets.xlsx file) from Laptop B's log folder to Laptop A's log folder.
 1. Open terminal, activate the environment, navigate to the directory where the script is located, and enter `ipython`.
